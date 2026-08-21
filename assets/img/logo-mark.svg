@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="FLOW GWANGJU">
+  <circle cx="16" cy="16" r="15" fill="#D8FF45"/>
+  <path d="M4.5 19.5c2.9-4.4 5.8-4.4 8.6 0 2.9 4.4 5.8 4.4 8.6 0" fill="none" stroke="#16181D" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M9.2 12.4c2.9-4.4 5.8-4.4 8.6 0 2.9 4.4 5.8 4.4 8.6 0" fill="none" stroke="#16181D" stroke-width="2.6" stroke-linecap="round" opacity=".45"/>
+</svg>
