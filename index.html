@@ -17,7 +17,7 @@
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script defer src="assets/js/main.js"></script>
@@ -53,10 +53,10 @@
       <a class="nav__link" href="#how">진행 방식</a>
       <a class="nav__link" href="join.html">참여 안내</a>
       <a class="nav__link" href="brand.html">브랜드 가이드</a>
-      <a class="btn btn--dark" data-link="apply" href="#">신청하기</a>
+      <a class="btn btn--primary" data-link="apply" href="#">신청하기</a>
     </nav>
 
-    <a class="btn btn--dark header__cta" data-link="apply" href="#">신청하기</a>
+    <a class="btn btn--primary header__cta" data-link="apply" href="#">신청하기</a>
   </div>
 </header>
 
@@ -64,10 +64,13 @@
 
   <!-- ── HERO ────────────────────────────────────────────────────────── -->
   <section class="hero">
-    <div class="hero__glow" aria-hidden="true"></div>
-    <div class="hero__glow hero__glow--blue" aria-hidden="true"></div>
+    <div class="hero__wash" aria-hidden="true"></div>
+    <div class="hero__wash hero__wash--2" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
 
     <div class="shell hero__inner">
+      <div class="hero__grid">
+      <div class="hero__copy">
       <div class="hero__badges">
         <span class="tag tag--lime">AGE 20–34</span>
         <span class="tag">광주 로컬 소셜링</span>
@@ -86,6 +89,19 @@
           이번 달 FLOW 신청하기 <span class="btn__arrow" aria-hidden="true">→</span>
         </a>
         <a class="btn btn--ghost" href="programs.html">프로그램 8개 보기</a>
+      </div>
+      </div>
+
+      <figure class="hero__art" aria-hidden="true">
+        <span class="hero__art-ring"></span>
+        <svg class="hero__art-wave" viewBox="0 0 400 120" fill="none">
+          <path d="M-20 76c34-40 68-40 102 0s68 40 102 0 68-40 102 0 68 40 102 0"
+                stroke="rgba(28,26,23,.26)" stroke-width="1" />
+          <path d="M-20 96c34-40 68-40 102 0s68 40 102 0 68-40 102 0 68 40 102 0"
+                stroke="rgba(28,26,23,.14)" stroke-width="1" />
+        </svg>
+        <figcaption class="hero__art-caption en">GWANGJU · AFTER WORK</figcaption>
+      </figure>
       </div>
 
       <div class="hero__facts">
@@ -139,7 +155,7 @@
       </div>
 
       <div class="grid grid--3">
-        <article class="card card--hover reveal">
+        <article class="card reveal">
           <span class="card__num en">01</span>
           <h3 class="h3">회사와 집만 반복돼요</h3>
           <p class="card__body">
@@ -147,7 +163,7 @@
             FLOW는 평일 저녁과 주말 낮, 딱 90–120분의 계기를 만듭니다.
           </p>
         </article>
-        <article class="card card--hover reveal">
+        <article class="card reveal">
           <span class="card__num en">02</span>
           <h3 class="h3">기존 동호회는 문턱이 높아요</h3>
           <p class="card__body">
@@ -155,7 +171,7 @@
             FLOW는 <b>혼자 신청하는 사람을 기준으로</b> 모든 진행을 설계합니다.
           </p>
         </article>
-        <article class="card card--hover reveal">
+        <article class="card reveal">
           <span class="card__num en">03</span>
           <h3 class="h3">배우기만 하면 안 남아요</h3>
           <p class="card__body">
@@ -202,7 +218,7 @@
   </section>
 
   <!-- ── PROGRAMS ───────────────────────────────────────────────────── -->
-  <section class="section section--alt" id="programs">
+  <section class="section section--paper2" id="programs">
     <div class="shell">
       <div class="section-head reveal">
         <div>
@@ -217,37 +233,43 @@
       </div>
 
       <div class="grid grid--3">
-        <a class="pcard reveal" href="programs.html#tone" style="--accent:#FF8FA3">
+        <a class="pcard reveal" href="programs.html#tone" style="--accent:var(--tint-rose)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW TONE</span>
           <h3 class="pcard__title">컬러로 말해요</h3>
           <p class="pcard__desc">그룹형 미니 퍼스널컬러 진단과 서로의 첫인상 컬러 골라주기.</p>
           <div class="pcard__meta"><span><b>8명</b> · 120분</span><span>39,000–49,000원</span></div>
         </a>
-        <a class="pcard reveal" href="programs.html#move" style="--accent:#48C7FF">
+        <a class="pcard reveal" href="programs.html#move" style="--accent:var(--tint-sky)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW MOVE</span>
           <h3 class="pcard__title">Rally &amp; Rotate</h3>
           <p class="pcard__desc">라켓을 처음 잡아도 괜찮은 배드민턴. 10분마다 파트너를 바꿉니다.</p>
           <div class="pcard__meta"><span><b>12명</b> · 90분</span><span>22,000–28,000원</span></div>
         </a>
-        <a class="pcard reveal" href="programs.html#sound" style="--accent:#D8FF45">
+        <a class="pcard reveal" href="programs.html#sound" style="--accent:var(--tint-sand)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW SOUND</span>
           <h3 class="pcard__title">세 코드로 한 곡</h3>
           <p class="pcard__desc">코드 세 개만 배워서, 두 시간 뒤 함께 한 곡을 연주합니다.</p>
           <div class="pcard__meta"><span><b>8명</b> · 120분</span><span>32,000–42,000원</span></div>
         </a>
-        <a class="pcard reveal" href="programs.html#table" style="--accent:#FFB84D">
+        <a class="pcard reveal" href="programs.html#table" style="--accent:var(--tint-clay)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW TABLE</span>
           <h3 class="pcard__title">오늘의 취향 식탁</h3>
           <p class="pcard__desc">음식과 질문카드로 이어지는 대화. 코스가 바뀔 때마다 자리도 바뀝니다.</p>
           <div class="pcard__meta"><span><b>8명</b> · 120분</span><span>30,000–45,000원</span></div>
         </a>
-        <a class="pcard reveal" href="programs.html#mix" style="--accent:#B79CFF">
+        <a class="pcard reveal" href="programs.html#mix" style="--accent:var(--tint-lilac)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW MIX</span>
           <h3 class="pcard__title">한 곡의 밤</h3>
           <p class="pcard__desc">각자 한 곡을 가져와 3분씩 사연을 소개하고, 함께 플레이리스트를 만듭니다.</p>
           <div class="pcard__meta"><span><b>10명</b> · 90분</span><span>15,000–25,000원</span></div>
         </a>
-        <a class="pcard reveal" href="programs.html#local" style="--accent:#6DE0A8">
+        <a class="pcard reveal" href="programs.html#local" style="--accent:var(--tint-sage)">
+          <span class="pcard__art" aria-hidden="true"><svg class="pcard__wave" viewBox="0 0 320 60" fill="none" aria-hidden="true"><path d="M-10 34c26-30 52-30 78 0s52 30 78 0 52-30 78 0 52 30 78 0" stroke="rgba(28,26,23,.28)" stroke-width="1"/></svg></span>
           <span class="pcard__key">FLOW LOCAL</span>
           <h3 class="pcard__title">빛 따라 걷는 밤</h3>
           <p class="pcard__desc">동명동·양림동·ACC를 걷는 야간 산책. 20분마다 대화 파트너가 바뀝니다.</p>
@@ -322,7 +344,7 @@
         <div class="panel reveal">
           <span class="eyebrow">Age policy</span>
           <h3 class="h3" style="margin-top: 0.8rem">참여 대상은 명확하게</h3>
-          <p class="lead" style="margin-top: 0.9rem; color: rgba(255,249,239,.72)">
+          <p class="lead" style="margin-top: 0.9rem">
             행사일 기준 <b style="color: var(--lime)">만 20세 이상 만 34세 이하</b>
             (<span data-birth-range>—</span>).
             대학생, 취업준비생, 직장인, 프리랜서 등 현재 직업과 관계없이 참여할 수 있습니다.
@@ -331,7 +353,7 @@
             <span class="tag tag--lime">ALL FLOW · 20–34세 전체</span>
             <span class="tag">PEER FLOW · 20–26 / 27–34</span>
           </div>
-          <p class="small" style="margin-top: 1rem; color: rgba(255,249,239,.55)">
+          <p class="small" style="margin-top: 1rem">
             대부분의 모임은 ALL FLOW로 열고, 커리어·재테크처럼 생활 단계가 중요한 경우에만 나눕니다.
           </p>
         </div>
@@ -387,7 +409,7 @@
   </section>
 
   <!-- ── HOST STORY ─────────────────────────────────────────────────── -->
-  <section class="section section--alt" id="team">
+  <section class="section section--paper2" id="team">
     <div class="shell">
       <div class="split">
         <div class="reveal">
@@ -401,7 +423,7 @@
             무리하게 자주 열기보다, <b>월 2회의 완성도 높은 경험</b>을 지향하는 이유입니다.
           </p>
           <div class="btn-row" style="margin-top: 1.75rem">
-            <a class="btn btn--dark" data-link="host" href="#">호스트로 참여하기</a>
+            <a class="btn btn--primary" data-link="host" href="#">호스트로 참여하기</a>
             <a class="btn btn--ghost" data-link="partner" href="#">공간·브랜드 제휴 문의</a>
           </div>
         </div>
@@ -422,10 +444,10 @@
             <h3 class="h3">참가자 운영</h3>
             <p class="card__body">신청·알림·현장 체크인, 후기 수집</p>
           </div>
-          <div class="card reveal" style="background: var(--ink); color: var(--ivory); border-color: var(--ink)">
+          <div class="card reveal">
             <span class="card__num en" style="color: var(--lime)">HOSTS</span>
             <h3 class="h3">진행은 각 분야의 호스트가</h3>
-            <p class="card__body" style="color: rgba(255,249,239,.7)">
+            <p class="card__body">
               퍼스널컬러 강사, 배드민턴 코치, 기타 튜터 등 검증된 호스트가 프로그램을 진행합니다.
               운영진은 브랜드·모집·품질만 책임집니다.
             </p>
@@ -504,8 +526,9 @@
   <section class="section section--tight">
     <div class="shell">
       <div class="cta reveal">
-        <div class="cta__glow" aria-hidden="true"></div>
-        <span class="eyebrow" style="color: rgba(255,249,239,.6)">Join the flow</span>
+        <div class="cta__wash" aria-hidden="true"></div>
+        <div class="cta__grain" aria-hidden="true"></div>
+        <span class="eyebrow">Join the flow</span>
         <h2 class="h2" style="margin-top: 0.9rem">퇴근 후, 광주가 달라진다</h2>
         <p class="lead">
           이번 달 FLOW는 8–12명으로 마감됩니다.<br />
@@ -519,7 +542,7 @@
     </div>
   </section>
 
-  <div class="marquee marquee--ink" aria-hidden="true">
+  <div class="marquee marquee--kr" aria-hidden="true">
     <div class="marquee__track">
       <span class="marquee__item">취향이 흐르면, 우리가 만난다</span>
       <span class="marquee__item">AFTER WORK, INTO THE CITY</span>

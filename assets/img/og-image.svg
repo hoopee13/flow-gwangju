@@ -1,9 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <rect width="1200" height="630" fill="#16181D"/>
-  <circle cx="1010" cy="150" r="300" fill="#D8FF45" opacity=".16"/>
-  <circle cx="140" cy="560" r="260" fill="#48C7FF" opacity=".14"/>
-  <path d="M-20 470c90-140 180-140 270 0s180 140 270 0 180-140 270 0 180 140 270 0 180-140 270 0" fill="none" stroke="#D8FF45" stroke-width="10" stroke-linecap="round" opacity=".55"/>
-  <text x="90" y="230" fill="#FFF9EF" font-family="Space Grotesk, Helvetica, Arial, sans-serif" font-size="34" letter-spacing="10">FLOW / GWANGJU</text>
-  <text x="90" y="340" fill="#FFF9EF" font-family="Pretendard, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="76" font-weight="700">취향이 흐르면, 우리가 만난다</text>
-  <text x="90" y="410" fill="#D8FF45" font-family="Pretendard, Apple SD Gothic Neo, Malgun Gothic, sans-serif" font-size="34" font-weight="600">만 20–34세 광주 청년을 위한 취향 소셜링</text>
+  <defs>
+    <radialGradient id="w1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E6DCC6"/><stop offset="100%" stop-color="#E6DCC6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="w2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#CFDCE3"/><stop offset="100%" stop-color="#CFDCE3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="#F4F1EA"/>
+  <ellipse cx="960" cy="180" rx="420" ry="360" fill="url(#w1)"/>
+  <ellipse cx="180" cy="540" rx="380" ry="320" fill="url(#w2)"/>
+  <rect width="1200" height="630" filter="url(#grain)" opacity=".16"/>
+  <path d="M0 500c60-72 120-72 180 0s120 72 180 0 120-72 180 0 120 72 180 0 120-72 180 0 120 72 180 0" fill="none" stroke="#1C1A17" stroke-width="1.2" opacity=".3"/>
+  <text x="90" y="200" fill="#9A9086" font-family="Jost, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="9">FLOW / GWANGJU</text>
+  <text x="90" y="320" fill="#1C1A17" font-family="Nanum Myeongjo, Batang, serif" font-size="66">취향이 흐르면, 우리가 만난다</text>
+  <text x="90" y="392" fill="#6F675E" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="28">만 20–34세 광주 청년을 위한 취향 소셜링</text>
 </svg>

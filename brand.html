@@ -13,7 +13,7 @@
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Jost:wght@300;400&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
 <script defer src="assets/js/main.js"></script>
@@ -36,16 +36,17 @@
       <a class="nav__link" href="index.html#how">진행 방식</a>
       <a class="nav__link" href="join.html">참여 안내</a>
       <a class="nav__link" href="brand.html" aria-current="page">브랜드 가이드</a>
-      <a class="btn btn--dark" data-link="apply" href="#">신청하기</a>
+      <a class="btn btn--primary" data-link="apply" href="#">신청하기</a>
     </nav>
-    <a class="btn btn--dark header__cta" data-link="apply" href="#">신청하기</a>
+    <a class="btn btn--primary header__cta" data-link="apply" href="#">신청하기</a>
   </div>
 </header>
 
 <main id="main">
   <section class="page-hero">
-    <div class="hero__glow" aria-hidden="true"></div>
-    <div class="hero__glow hero__glow--blue" aria-hidden="true"></div>
+    <div class="hero__wash" aria-hidden="true"></div>
+    <div class="hero__wash hero__wash--2" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
     <div class="shell" style="position: relative; z-index: 1">
       <span class="eyebrow">Brand guide</span>
       <h1 class="h2">FLOW를 FLOW답게<br />유지하는 규칙</h1>
@@ -97,7 +98,7 @@
   </section>
 
   <!-- ── 브랜드 체계 ──────────────────────────────────────────────────── -->
-  <section class="section section--alt">
+  <section class="section section--paper2">
     <div class="shell">
       <div class="section-head reveal">
         <div>
@@ -159,60 +160,98 @@
           <span class="eyebrow">Color</span>
           <h2 class="h2">컬러 팔레트</h2>
           <p class="lead">
-            딥 차콜을 바탕으로 일렉트릭 라임을 한 곳에만 강하게 씁니다.
-            라임을 넓게 깔면 촌스러워지고, 포인트로 쓰면 즉시 눈에 띕니다.
+            따뜻한 종이색을 바탕에 두고, 프로그램마다 채도를 낮춘 색면 하나만 얹습니다.
+            색이 조용할수록 사람과 활동이 먼저 보입니다.
           </p>
         </div>
       </div>
 
       <div class="swatches reveal">
         <div class="swatch">
+          <div class="swatch__chip" style="background: #f4f1ea"></div>
+          <div class="swatch__meta">
+            <div class="swatch__name">Paper</div>
+            <div class="swatch__hex">#F4F1EA</div>
+            <p class="swatch__use">기본 배경. 순백 대신 따뜻한 종이색</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch__chip" style="background: #1c1a17"></div>
+          <div class="swatch__meta">
+            <div class="swatch__name">Ink</div>
+            <div class="swatch__hex">#1C1A17</div>
+            <p class="swatch__use">본문과 제목. 완전한 검정은 쓰지 않습니다</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch__chip" style="background: #6f675e"></div>
+          <div class="swatch__meta">
+            <div class="swatch__name">Soft Ink</div>
+            <div class="swatch__hex">#6F675E</div>
+            <p class="swatch__use">설명문, 캡션, 보조 정보</p>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch__chip" style="background: #eae4d9"></div>
+          <div class="swatch__meta">
+            <div class="swatch__name">Paper Deep</div>
+            <div class="swatch__hex">#EAE4D9</div>
+            <p class="swatch__use">섹션 구분, 색면의 하단 그러데이션</p>
+          </div>
+        </div>
+        <div class="swatch">
           <div class="swatch__chip" style="background: #d8ff45"></div>
           <div class="swatch__meta">
-            <div class="swatch__name">Electric Lime</div>
+            <div class="swatch__name">Signal Lime</div>
             <div class="swatch__hex">#D8FF45</div>
-            <p class="swatch__use">메인 포인트. 버튼, 강조 문구, 마퀴에만 사용</p>
-          </div>
-        </div>
-        <div class="swatch">
-          <div class="swatch__chip" style="background: #16181d"></div>
-          <div class="swatch__meta">
-            <div class="swatch__name">Deep Charcoal</div>
-            <div class="swatch__hex">#16181D</div>
-            <p class="swatch__use">기본 컬러. 텍스트, 어두운 섹션 배경</p>
-          </div>
-        </div>
-        <div class="swatch">
-          <div class="swatch__chip" style="background: #fff9ef; border-bottom: 1px solid rgba(0,0,0,.08)"></div>
-          <div class="swatch__meta">
-            <div class="swatch__name">Warm Ivory</div>
-            <div class="swatch__hex">#FFF9EF</div>
-            <p class="swatch__use">배경. 순백 대신 따뜻한 아이보리를 씁니다</p>
-          </div>
-        </div>
-        <div class="swatch">
-          <div class="swatch__chip" style="background: #48c7ff"></div>
-          <div class="swatch__meta">
-            <div class="swatch__name">Flow Blue</div>
-            <div class="swatch__hex">#48C7FF</div>
-            <p class="swatch__use">보조 포인트. 링크, 오픈 예정 배지</p>
+            <p class="swatch__use">브랜드 시그널. 한 화면에 한 번, 점 하나 크기로만</p>
           </div>
         </div>
       </div>
 
-      <div class="dual reveal" style="margin-top: 1.5rem">
+      <div class="reveal" style="margin-top: clamp(3rem, 6vw, 4.5rem)">
+        <span class="eyebrow">Program tints</span>
+        <div class="swatches" style="margin-top: 1.75rem">
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #e6d3cd"></div>
+            <div class="swatch__meta"><div class="swatch__name">Rose</div><div class="swatch__hex">#E6D3CD · TONE</div></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #cfdce3"></div>
+            <div class="swatch__meta"><div class="swatch__name">Sky</div><div class="swatch__hex">#CFDCE3 · MOVE</div></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #e6dcc6"></div>
+            <div class="swatch__meta"><div class="swatch__name">Sand</div><div class="swatch__hex">#E6DCC6 · SOUND</div></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #e2d4c4"></div>
+            <div class="swatch__meta"><div class="swatch__name">Clay</div><div class="swatch__hex">#E2D4C4 · TABLE</div></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #d9d4e4"></div>
+            <div class="swatch__meta"><div class="swatch__name">Lilac</div><div class="swatch__hex">#D9D4E4 · MIX</div></div>
+          </div>
+          <div class="swatch">
+            <div class="swatch__chip" style="background: #d3dbcb"></div>
+            <div class="swatch__meta"><div class="swatch__name">Sage</div><div class="swatch__hex">#D3DBCB · LOCAL</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dual reveal" style="margin-top: clamp(3rem, 6vw, 4.5rem)">
         <div class="card">
           <h3 class="h3">사용 비율</h3>
           <p class="card__body">
-            아이보리 또는 차콜 <b>70%</b>, 중간톤 <b>20%</b>, 라임 <b>10%</b>.
-            한 화면에 라임이 세 곳 이상 등장하면 하나로 줄이세요.
+            종이색 <b>75%</b>, 잉크와 회색 <b>20%</b>, 프로그램 색면 <b>5%</b>.
+            라임은 비율에 들어가지 않습니다 — 한 화면에 점 하나면 충분합니다.
           </p>
         </div>
         <div class="card">
-          <h3 class="h3">가독성</h3>
+          <h3 class="h3">질감</h3>
           <p class="card__body">
-            라임 위 글자는 항상 차콜입니다. 라임 위 흰 글자, 차콜 위 라임 본문은
-            대비가 부족하거나 눈이 피로해 사용하지 않습니다.
+            모든 색면 위에는 아주 옅은 그레인을 얹습니다. 인쇄물의 종이 결처럼
+            화면에서도 색이 납작해 보이지 않게 하기 위해서입니다.
           </p>
         </div>
       </div>
@@ -220,7 +259,7 @@
   </section>
 
   <!-- ── 타이포 & 로고 ────────────────────────────────────────────────── -->
-  <section class="section section--alt">
+  <section class="section section--paper2">
     <div class="shell">
       <div class="section-head reveal">
         <div>
@@ -231,26 +270,43 @@
 
       <div class="dual reveal">
         <div class="type-sample">
-          <span class="eyebrow">Korean · Pretendard</span>
+          <span class="eyebrow">Headline · Nanum Myeongjo</span>
           <p class="kr-lg">취향이 흐르면, 우리가 만난다</p>
           <p class="muted small">
-            제목은 Bold~ExtraBold, 자간 -3%. 본문은 Regular~Medium.
-            줄바꿈은 어절 단위로 끊어 문장이 어색하게 잘리지 않게 합니다.
+            제목은 명조 Regular. 굵기로 힘을 주지 않고 크기와 여백으로 말합니다.
+            자간 -3%, 행간 1.5. 줄바꿈은 어절 단위로 끊습니다.
           </p>
         </div>
         <div class="type-sample">
-          <span class="eyebrow">English · Space Grotesk</span>
-          <p class="en-lg">AFTER WORK, INTO THE CITY</p>
+          <span class="eyebrow">Body · Pretendard</span>
+          <p style="font-size: 1.05rem; line-height: 2.05">
+            혼자 신청해도 괜찮아요. FLOW HOST가 대화와 활동을 자연스럽게 연결합니다.
+          </p>
           <p class="muted small">
-            카테고리명, 숫자, 날짜, 라벨에 사용. 대문자와 넓은 자간(0.15em)으로
-            그래픽 요소처럼 다룹니다.
+            본문은 Regular, 행간 1.95~2.05. 한 문단은 세 줄을 넘기지 않습니다.
+          </p>
+        </div>
+        <div class="type-sample">
+          <span class="eyebrow">Display · Cormorant Garamond</span>
+          <p class="en-lg">After work, into the city</p>
+          <p class="muted small">
+            영문 헤드라인과 숫자. 날짜와 정원처럼 숫자가 주인공일 때 사용합니다.
+          </p>
+        </div>
+        <div class="type-sample">
+          <span class="eyebrow">Label · Jost</span>
+          <p class="en" style="font-size: 0.95rem; letter-spacing: 0.3em; text-transform: uppercase; margin-top: 1rem">
+            Flow Tone 01
+          </p>
+          <p class="muted small">
+            카테고리명과 라벨. 대문자, 자간 0.3em으로 그래픽 요소처럼 다룹니다.
           </p>
         </div>
       </div>
 
       <div class="split reveal" style="margin-top: 1.5rem">
-        <div class="panel" style="display: grid; place-items: center; min-height: 220px; background: var(--ink)">
-          <span class="logo" style="color: var(--ivory); font-size: clamp(1.3rem, 3vw, 1.9rem)">
+        <div class="panel" style="display: grid; place-items: center; min-height: 260px; background: var(--paper); border: 1px solid var(--hair); padding: 2rem">
+          <span class="logo" style="font-size: clamp(1.05rem, 2.4vw, 1.5rem)">
             <img class="logo__mark" src="assets/img/logo-mark.svg" alt="FLOW GWANGJU 로고" width="44" height="44" style="width: clamp(34px, 5vw, 44px); height: auto" />
             <span>FLOW <span class="logo__slash">/</span> GWANGJU</span>
           </span>
@@ -258,15 +314,15 @@
         <div class="panel">
           <h3 class="h3">로고 사용 규칙</h3>
           <ul class="checklist" style="margin-top: 1.1rem">
-            <li>워드마크의 <b>O</b>는 물결로 표현해 이름의 의미를 전달합니다</li>
+            <li>마크는 원 안의 두 겹 물결 — 흐름과 만남을 함께 뜻합니다</li>
             <li>지역명 앞에는 항상 슬래시(/)를 둡니다 — FLOW / GWANGJU</li>
             <li>최소 여백은 마크 높이의 절반</li>
             <li>최소 크기는 가로 96px (인쇄 시 24mm)</li>
           </ul>
           <ul class="checklist checklist--x" style="margin-top: 1rem">
-            <li>라임 배경 위 라임 로고, 사진 위 직접 배치</li>
+            <li>색면이나 사진 위에 직접 배치 — 여백을 둔 종이 위에만 놓습니다</li>
             <li>비율 왜곡, 그림자, 외곽선 추가</li>
-            <li>임의 색상 변경 (차콜 · 아이보리 · 라임만 사용)</li>
+            <li>임의 색상 변경 (잉크 · 종이색 두 가지만 사용)</li>
           </ul>
         </div>
       </div>
@@ -275,13 +331,14 @@
         <div class="card">
           <h3 class="h3">그래픽 모티프</h3>
           <p class="card__body">
-            물결, 경로, 연결점, 둥근 캡슐. 사람과 사람 사이가 이어지는 형태를 반복합니다.
+            물결, 경로, 연결점. 선은 얇게, 면은 넓게 씁니다. 채우기보다 비우는 쪽을 택합니다.
           </p>
         </div>
         <div class="card">
           <h3 class="h3">사진 원칙</h3>
           <p class="card__body">
             포즈를 잡은 단체 사진보다 활동 중의 손·표정·움직임.
+            채도와 대비를 낮추고 여백을 넉넉히 둡니다.
             얼굴이 나온 사진은 참가자 동의 후에만 게시합니다.
           </p>
         </div>
@@ -325,7 +382,7 @@
 
       <div class="panel reveal" style="margin-top: 1.5rem">
         <span class="eyebrow">Bio · 인스타그램 소개문</span>
-        <p class="lead" style="margin-top: 1rem; color: rgba(255,249,239,.86)">
+        <p class="lead" style="margin-top: 1rem">
           광주 청년을 위한 취향 소셜링<br />
           혼자 와도 자연스럽게, 취향으로 가볍게<br />
           TONE · MOVE · SOUND · TABLE<br />
@@ -350,22 +407,22 @@
       </div>
 
       <div class="grid grid--4">
-        <div class="card card--hover reveal">
+        <div class="card reveal">
           <span class="card__num en">TYPE 01</span>
           <h3 class="h3">분위기</h3>
           <p class="card__body">“혼자 온 8명이 90분 뒤 이렇게 됐습니다” — 현장 영상 중심</p>
         </div>
-        <div class="card card--hover reveal">
+        <div class="card reveal">
           <span class="card__num en">TYPE 02</span>
           <h3 class="h3">사람</h3>
           <p class="card__body">호스트 소개와 이 프로그램을 여는 이유</p>
         </div>
-        <div class="card card--hover reveal">
+        <div class="card reveal">
           <span class="card__num en">TYPE 03</span>
           <h3 class="h3">취향</h3>
           <p class="card__body">퍼스널컬러·배드민턴 관련 짧고 쓸모 있는 팁</p>
         </div>
-        <div class="card card--hover reveal">
+        <div class="card reveal">
           <span class="card__num en">TYPE 04</span>
           <h3 class="h3">후기</h3>
           <p class="card__body">참가자의 한 문장과 실제 현장 사진</p>
@@ -397,8 +454,9 @@
   <section class="section section--tight">
     <div class="shell">
       <div class="cta reveal">
-        <div class="cta__glow" aria-hidden="true"></div>
-        <span class="eyebrow" style="color: rgba(255,249,239,.6)">Make it flow</span>
+        <div class="cta__wash" aria-hidden="true"></div>
+        <div class="cta__grain" aria-hidden="true"></div>
+        <span class="eyebrow">Make it flow</span>
         <h2 class="h2" style="margin-top: 0.9rem">같은 기준으로 만들면<br />브랜드가 됩니다</h2>
         <p class="lead">포스터와 안내문을 만들기 전에 이 페이지를 먼저 확인해 주세요.</p>
         <div class="btn-row">
